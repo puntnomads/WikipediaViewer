@@ -1,4 +1,3 @@
-$(document).ready(function(){
 window.onkeyup = keyup;
 var inputSearchTerm;
 function keyup(e) {
@@ -15,4 +14,3 @@ $("#url_"+i).attr("href", data[3][i]);
 }
   }
 }
-});
